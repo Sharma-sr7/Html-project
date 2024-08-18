@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-image: url('images\ \(9\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+header h1{
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 10px white;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+ul{
+    display: flex;
+    column-gap: 15px;
+}
+nav li{
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: gray;
+
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.sec1 img{
+    width: 400px;
+    border: 1px black;
+    border-style: solid;
+
+}
+.sec1{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.sec1 .content{
+    padding: 25px;
+}
+.content p{
+    text-indent: 50px;
+    text-align: justify;
+}
+.content ol{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.sec2{
+    margin-top: 10px;
+}
+
+.sec2 p{
+    text-indent: 50px;
+    text-align: justify;
+}
+.sec2 h1{
+    padding: 10px;
+    padding-left: 0px;
+}
+.sec3{
+    border: 1px solid black;
+    
+    margin-top: 15px;
+
+}
+.sec3 h1{
+    padding: 10px;
+    padding-left: 0px;
+}
+.sec3 p{
+    text-indent: 50px;
+    text-align: justify;
+}
+.viwe #im1{
+    width: 200px;
+    height: 350px;
+}
+.viwe #im2{
+    width: 300px;
+    height: 350px;
+}
+.viwe #im3{
+    width: 600px;
+    height: 350px;
+}
+.viwe{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 15px;
+}
+.viwe h3{
+    text-align: center;
+    padding: 10px;
+}
+.foot footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    padding: 3px;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
